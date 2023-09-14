@@ -1,2 +1,27 @@
-﻿# mern-social-media
-https://gyazo.com/9dbe741c2e9189dcedef5f3f5ba3aa43
+# MERN Social Media App
+
+## Yleiskuvaus
+
+Tämä on MERN-pohjainen sosiaalisen median sovellus, joka sisältää autentikaation, tykkäystoiminnon sekä tumman tilan tuen. Käyttöliittymä on rakennettu Reactilla ja Material-UI:lla.
+
+## Ominaisuudet
+
+- Käyttäjätunnistus (rekisteröinti ja kirjautuminen)
+- Käyttäjäprofiilit
+- Tykkäykset
+- Tumman tilan tuki
+
+## Teknologiat
+
+- MongoDB
+- Express.js
+- React
+- Node.js
+- Material-UI
+
+## Asennus
+
+Asenna ensin tarvittavat riippuvuudet:
+
+```bash
+npm install
