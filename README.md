@@ -1,6 +1,8 @@
 # MERN Social Media App
 ## Yleiskuvaus
 
+![TinkerIT](https://github.com/pchuchat/MERN-Social-Media/assets/84800814/4de7e9c5-a4fe-4b02-8434-31347c185a8f)
+
 Tämä on täysipino MERN-pohjainen (MongoDB, Express.js, React, Node.js) sosiaalisen median sovellus. Sovellus sisältää käyttäjäautentikaation, tykkäystoiminnon sekä tumman tilan tuen. Käyttöliittymä on rakennettu Reactilla ja Material-UI:lla.
 
 ## Sisällysluettelo
