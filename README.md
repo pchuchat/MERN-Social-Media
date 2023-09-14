@@ -35,6 +35,15 @@ Asenna ensin tarvittavat riippuvuudet seuraavalla komennolla:
 ```bash
 npm install
 ````
+Käynnistä palvelin:
+```bash
+npm run start
+````
+
+Käynistä serveri:
+```bash
+npm run dev
+````
 ## Käyttö
 Kun olet asentanut tarvittavat riippuvuudet ja käynnistänyt palvelimen, avaa selaimessa http://localhost:3000 (tai missä portissa palvelimesi on konfiguroitu toimimaan).
 ## Tietokanta
