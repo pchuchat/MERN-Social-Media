@@ -2,26 +2,16 @@
 
 ## Yleiskuvaus
 
-Tämä on MERN-pohjainen sosiaalisen median sovellus, joka sisältää autentikaation, tykkäystoiminnon sekä tumman tilan tuen. Käyttöliittymä on rakennettu Reactilla ja Material-UI:lla.
+Tämä on täysipino MERN-pohjainen (MongoDB, Express.js, React, Node.js) sosiaalisen median sovellus. Sovellus sisältää käyttäjäautentikaation, tykkäystoiminnon sekä tumman tilan tuen. Käyttöliittymä on rakennettu Reactilla ja Material-UI:lla.
 
 ## Sisällysluettelo
 
-1. [Alkuasetukset](#alkuasetukset)
-    - [Backend-asennus](#backend-asennus)
-    - [Backend-konfiguraatio](#backend-konfiguraatio)
-    - [MongoDB](#mongodb)
-    - ...
-2. [Backend](#backend)
-    - [Autentikaatio ja autorisointi](#autentikaatio-ja-autorisointi)
-    - [Käyttäjäreitit](#käyttäjäreitit)
-    - [Post-reitit](#post-reitit)
-    - ...
-3. [Frontend](#frontend)
-    - [Asennus ja asetukset](#asennus-ja-asetukset)
-    - [React Redux](#react-redux)
-    - [Ulkoasu ja tumma tila](#ulkoasu-ja-tumma-tila)
-    - ...
-4. [Koko sovellus](#koko-sovellus)
+1. [Teknologiat](#teknologiat)
+2. [Ominaisuudet](#ominaisuudet)
+3. [Asennus](#asennus)
+4. [Käyttö](#käyttö)
+5. [Tietokanta](#tietokanta)
+6. [Lisenssi](#lisenssi)
 
 ## Teknologiat
 
@@ -31,9 +21,25 @@ Tämä on MERN-pohjainen sosiaalisen median sovellus, joka sisältää autentika
 - Node.js
 - Material-UI
 
+## Ominaisuudet
+
+- Käyttäjätunnistus (rekisteröinti ja kirjautuminen)
+- Käyttäjäprofiilit
+- Tykkäykset
+- Tumman tilan tuki
+
 ## Asennus
 
-Asenna ensin tarvittavat riippuvuudet:
+Asenna ensin tarvittavat riippuvuudet seuraavalla komennolla:
 
 ```bash
 npm install
+````
+## Käyttö
+Kun olet asentanut tarvittavat riippuvuudet ja käynnistänyt palvelimen, avaa selaimessa http://localhost:3000 (tai missä portissa palvelimesi on konfiguroitu toimimaan).
+## Tietokanta
+Tämä projekti käyttää MongoDB:tä. Varmista, että sinulla on MongoDB yhteys määritelty config.js-tiedostossa.
+
+## Lisenssi
+
+Tämä projekti on lisensoitu MIT-lisenssillä. Katso LICENSE tiedosto lisätietoja varten.
