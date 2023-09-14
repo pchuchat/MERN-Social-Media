@@ -1,5 +1,4 @@
 # MERN Social Media App
-
 ## Yleiskuvaus
 
 Tämä on täysipino MERN-pohjainen (MongoDB, Express.js, React, Node.js) sosiaalisen median sovellus. Sovellus sisältää käyttäjäautentikaation, tykkäystoiminnon sekä tumman tilan tuen. Käyttöliittymä on rakennettu Reactilla ja Material-UI:lla.
